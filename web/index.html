@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .container
+            {
+                width:30%;
+                border:1px solid black;
+                margin:auto;
+                padding:20px;
+                font-size: 20px;
+            }
+            #myform table tr td input
+            {
+                font-size:20px;
+            }
+        </style>
+    </head>
+    <body>
+<!--        <div>TODO write content</div>
+        <a href=firstservlet>FIRST SERVLET</a>
+        <a href="second">SECOND SERVLET</a>
+        <a href="third">THIRD</a>-->
+        <div class="container">
+        <h1>MY FORM</h1>
+            <form id="myform" action="Register" method="post">
+                <table>
+                    <tr>
+                        <td>Enter Your Name :</td>
+                        <td><input type="text" name="myname" id="name" placeholder="Enter Name..."/></td>
+                    </tr>
+                    <tr>
+                        <td>Enter Your Password :</td>
+                        <td><input type="password" name="mypassword" id="password" placeholder="Enter Password..."/></td>
+                    </tr>
+                    <tr>
+                        <td>Enter Your Email :</td>
+                        <td><input type="email" name="myemail" placeholder="Enter Email..."/></td>
+                    </tr>
+                    <tr>
+                        <td>Select Your Gender :</td>
+                        <td>
+                            <input type="radio" name="mygender" value="male"> Male &nbsp;&nbsp;&nbsp;<input type="radio" name="mygender" value="female"/> FEMALE
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Select Your Course :</td>
+                        <td>
+                            <select name="mycourse">
+                                <option selected hidden disabled >COURSES</option>
+                                <option value="php">PHP</option>
+                                <option value="java">JAVA</option>
+                                <option value="phython">PHYTHON</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align:right;"><input type="checkbox" name="condition" value="checked"/></td>
+                        <td>AGREE TERMS AND CONDITION</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <button type='submit'>SUBMIT</button>
+                            <button type='reset'>RESET</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>

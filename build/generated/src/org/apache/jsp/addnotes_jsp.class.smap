@@ -1,0 +1,34 @@
+SMAP
+addnotes_jsp.java
+JSP
+*S JSP
+*F
++ 0 addnotes.jsp
+addnotes.jsp
++ 1 allcss.jsp
+allcontent/allcss.jsp
++ 2 navbar.jsp
+allcontent/navbar.jsp
++ 3 footer.jsp
+allcontent/footer.jsp
+*L
+5,9:51
+1#1,18:60
+13#0,4:78
+17,28:83
+44,4:111
+1#2,9:115
+10,5:125
+14,20:130
+33:149,2
+34,4:151
+39,7:157
+45,23:164
+68,2:188
+69,5:190
+47#0,9:195
+56:204,3
+57,25:207
+1#3,5:232
+81#0,5:236
+*E
